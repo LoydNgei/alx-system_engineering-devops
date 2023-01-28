@@ -13,7 +13,7 @@ do
 			echo "bad luck from Japan";;
 		17)
 			echo 17
-			echo "bad luck from japan";;
+			echo "bad luck from Italy";;
 		*)
 			echo $i;;
 	esac
