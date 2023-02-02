@@ -2,7 +2,7 @@
 #Creates file, displays indefinitely, SIGTERM signal, SIGINT signal and deletes
 #file on SIGQUIT or SIGTERM signal
 
-echo "$$" > /var/run/myscript.pid
+echo "$$" > touch /var/run/myscript.pid
 
 while true
 do
