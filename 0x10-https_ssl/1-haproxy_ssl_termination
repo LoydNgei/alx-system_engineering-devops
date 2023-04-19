@@ -39,5 +39,5 @@ frontend http-in
         default_backend servers
 backend servers
         balance roundrobin
-        server web-01 54.237.227.137:80 check
+        server web-01 52.87.155.85:80 check
         server web-02 54.237.62.143:80 check
